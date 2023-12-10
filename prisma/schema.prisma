@@ -10,29 +10,29 @@ datasource db {
   url      = "mysql://sql12669276:36HeFUP3b2@sql12.freesqldatabase.com:3306/sql12669276"
 }
 
-model Cart {
+model cart {
   cart_id   Int      @id @default(autoincrement())
   user_id   Int
   product_id Int
   quantity  Int
   total     Decimal
   date      DateTime @default(now()) // Tambahkan kolom date dengan nilai default sekarang
-  User      User     @relation(fields: [user_id], references: [user_id])
-  Product   Product  @relation(fields: [product_id], references: [product_id])
+  user      user     @relation(fields: [user_id], references: [user_id])
+  product   product  @relation(fields: [product_id], references: [product_id])
 }
 
-model Product {
+model product {
   product_id      Int      @id @default(autoincrement())
   product_name    String?
   price           Float?
   stock_quantity  Int?
-  carts          Cart[]
+  carts          cart[]
 }
 
-model User {
+model user {
   user_id   Int      @id @default(autoincrement())
   username  String?
   password  String?
   email     String?
-  carts    Cart[]
+  carts    cart[]
 }
