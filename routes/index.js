@@ -9,7 +9,7 @@ const { home } = require('../function/buyer.js')
 router.get("/login", userLogin);
 router.post("/login", userLogin);
 router.post("/register", userRegister);
-router.get("/logout", userLogout);
+router.get("/", userLogout);
 
 router.get("/home", home);
 
