@@ -1,0 +1,645 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+a{
+  text-decoration: none;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 128rem;
+}.ipad-mini-83-1-eBw {
+  box-sizing: border-box;
+  padding: 5rem 7.5rem 5rem 3rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+}
+.ipad-mini-83-1-eBw .auto-group-tejh-Ccm {
+  margin-right: 7.6rem;
+  width: 71.1rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .auto-group-tejh-Ccm .group-8-6bf {
+  width: 100%;
+  height: 5.25rem;
+  border-bottom: solid 0.15rem #d0cfcf;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .auto-group-tejh-Ccm .group-8-6bf .auto-group-p9v7-e7P {
+  width: 21.1238rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+.ipad-mini-83-1-eBw .auto-group-tejh-Ccm .group-8-6bf .auto-group-p9v7-e7P .arrow-mC1 {
+  width: 3.4238rem;
+  height: 3rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+  transform: rotate(90deg);
+}
+.ipad-mini-83-1-eBw .auto-group-tejh-Ccm .group-8-6bf .auto-group-p9v7-e7P .shopping-continue-UcD {
+  margin-bottom: 0.1rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #1e1e1e;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .auto-group-tejh-Ccm .auto-group-y3mx-6tV {
+  box-sizing: border-box;
+  padding: 2.25rem 0rem 0rem 1.5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .auto-group-tejh-Ccm .auto-group-y3mx-6tV .auto-group-78ut-onu {
+  margin-bottom: 2.8rem;
+  width: 17.5rem;
+  height: 4.5rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .auto-group-tejh-Ccm .auto-group-y3mx-6tV .auto-group-78ut-onu .shopping-cart-iQ5 {
+  width: 12.9rem;
+  height: 2.7rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #1e1e1e;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.ipad-mini-83-1-eBw .auto-group-tejh-Ccm .auto-group-y3mx-6tV .auto-group-78ut-onu .you-have-3-item-in-your-cart-QXo {
+  width: 17.5rem;
+  height: 2rem;
+  position: absolute;
+  left: 0;
+  top: 2.5rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.3625;
+  color: #1e1e1e;
+  font-family: Nunito, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.ipad-mini-83-1-eBw .auto-group-tejh-Ccm .auto-group-y3mx-6tV .group-12-hG1 {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .auto-group-tejh-Ccm .auto-group-y3mx-6tV .group-12-hG1 .group-9-46Z {
+  margin-bottom: 2.4rem;
+  box-sizing: border-box;
+  padding: 0.9rem 2.633rem 0.871rem 1.145rem;
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .auto-group-tejh-Ccm .auto-group-y3mx-6tV .group-12-hG1 .group-9-46Z .rectangle-19-xSq {
+  margin-right: 2.0605rem;
+  width: 9.1579rem;
+  height: 8.2286rem;
+  background-color: #d9d9d9;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/download-removebg-preview-1.png');
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .auto-group-tejh-Ccm .auto-group-y3mx-6tV .group-12-hG1 .group-9-46Z .auto-group-c6uu-acd {
+  margin: 1.6rem 15.837rem 1.629rem 0rem;
+  height: calc(100% - 3.2286rem);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .auto-group-tejh-Ccm .auto-group-y3mx-6tV .group-12-hG1 .group-9-46Z .auto-group-c6uu-acd .italy-pizza-JYd {
+  margin-bottom: 0.3rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #1e1e1e;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.ipad-mini-83-1-eBw .auto-group-tejh-Ccm .auto-group-y3mx-6tV .group-12-hG1 .group-9-46Z .item-1-xdB {
+  margin: 0.171rem 0.961rem 0rem 0rem;
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 1;
+  color: #393939;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .auto-group-tejh-Ccm .auto-group-y3mx-6tV .group-12-hG1 .group-9-46Z .group-4-ULd {
+  margin: 0rem 6.705rem 0.029rem 0rem;
+  width: 2.2895rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .auto-group-tejh-Ccm .auto-group-y3mx-6tV .group-12-hG1 .group-9-46Z .item-681-ns7 {
+  margin: 0rem 2.35rem 0.129rem 0rem;
+  text-align: right;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #393939;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .auto-group-tejh-Ccm .auto-group-y3mx-6tV .group-12-hG1 .group-9-46Z .trash-can-ghb {
+  margin-bottom: 0.1286rem;
+  width: 2.8618rem;
+  height: 2.5rem;
+  cursor: pointer;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .auto-group-tejh-Ccm .auto-group-y3mx-6tV .group-12-hG1 .group-10-kxM {
+  box-sizing: border-box;
+  padding: 0.9rem 2.633rem 0.871rem 1.145rem;
+  width: 100%;
+  height: 10rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .auto-group-tejh-Ccm .auto-group-y3mx-6tV .group-12-hG1 .group-10-kxM .rectangle-21-rkV {
+  margin-right: 2.0605rem;
+  width: 9.1579rem;
+  height: 8.2286rem;
+  background-color: #d9d9d9;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/download1-removebg-preview-1.png');
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .auto-group-tejh-Ccm .auto-group-y3mx-6tV .group-12-hG1 .group-10-kxM .auto-group-r8ah-xoX {
+  margin: 1.6rem 15.837rem 1.629rem 0rem;
+  height: calc(100% - 3.2286rem);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .auto-group-tejh-Ccm .auto-group-y3mx-6tV .group-12-hG1 .group-10-kxM .auto-group-r8ah-xoX .combo-plate-5t9 {
+  margin-bottom: 0.3rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #1e1e1e;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .auto-group-tejh-Ccm .auto-group-y3mx-6tV .group-12-hG1 .group-10-kxM .item-1-jxh {
+  margin: 0.171rem 0.961rem 0rem -1.55rem;
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 1;
+  color: #393939;
+  font-family: Raleway, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .auto-group-tejh-Ccm .auto-group-y3mx-6tV .group-12-hG1 .group-10-kxM .group-5-Xdf {
+  margin: 0rem 6.705rem 0.029rem 0rem;
+  width: 2.2895rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .auto-group-tejh-Ccm .auto-group-y3mx-6tV .group-12-hG1 .group-10-kxM .item-681-3ru {
+  margin: 0rem 2.35rem 0.129rem 0rem;
+  text-align: right;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #393939;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .auto-group-tejh-Ccm .auto-group-y3mx-6tV .group-12-hG1 .group-10-kxM .trash-can-9Q9 {
+  margin-bottom: 0.1286rem;
+  width: 2.8618rem;
+  height: 2.5rem;
+  cursor: pointer;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .group-7-2D3 {
+  width: 38.8rem;
+  height: 64.4rem;
+  position: relative;
+  background-color: #4fd1c5;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .group-7-2D3 .name-on-card-xMb {
+  width: 10.1rem;
+  height: 2.1rem;
+  position: absolute;
+  left: 1.9rem;
+  top: 20.2rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #222222;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.ipad-mini-83-1-eBw .group-7-2D3 .card-type-SnZ {
+  width: 7.1rem;
+  height: 2.2rem;
+  position: absolute;
+  left: 1.9rem;
+  top: 8.4rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.3625;
+  color: #222222;
+  font-family: Nunito, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.ipad-mini-83-1-eBw .group-7-2D3 .card-details-q41 {
+  width: 13.8rem;
+  height: 3.3rem;
+  position: absolute;
+  left: 1.9rem;
+  top: 2.7rem;
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #222222;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.ipad-mini-83-1-eBw .group-7-2D3 .auto-group-6asf-jv5 {
+  box-sizing: border-box;
+  padding: 1.1rem 1.8rem;
+  width: 35rem;
+  height: 4rem;
+  position: absolute;
+  left: 1.9rem;
+  top: 22.8rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: black;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #ffffff;
+  border-radius: 0.6rem;
+}.ipad-mini-83-1-eBw .group-7-2D3 .auto-group-6asf-jv5::placeholder {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #c4c4c4;
+    font-family: Poppins, 'Source Sans Pro';
+}
+.ipad-mini-83-1-eBw .group-7-2D3 .auto-group-er7b-job {
+  width: 21rem;
+  height: 2.1rem;
+  position: absolute;
+  left: 1.9rem;
+  top: 36rem;
+  display: flex;
+  align-items: center;
+}
+.ipad-mini-83-1-eBw .group-7-2D3 .auto-group-er7b-job .expiration-date-GHj {
+  margin-right: 7.3rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #222222;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .group-7-2D3 .auto-group-er7b-job .cvv-b57 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #222222;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .group-7-2D3 .auto-group-rjnm-ifX {
+  width: 35rem;
+  height: 4rem;
+  position: absolute;
+  left: 1.9rem;
+  top: 38.5rem;
+  display: flex;
+  align-items: center;
+}
+.ipad-mini-83-1-eBw .group-7-2D3 .auto-group-rjnm-ifX .auto-group-yqau-y5f {
+  margin-right: 0.8rem;
+  box-sizing: border-box;
+  padding: 1.1rem 1.8rem;
+  width: 17.1rem;
+  height: 100%;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: black;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #ffffff;
+  border-radius: 0.6rem;
+  flex-shrink: 0;
+}.ipad-mini-83-1-eBw .group-7-2D3 .auto-group-rjnm-ifX .auto-group-yqau-y5f::placeholder {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #c4c4c4;
+    font-family: Poppins, 'Source Sans Pro';
+}
+.ipad-mini-83-1-eBw .group-7-2D3 .auto-group-rjnm-ifX .auto-group-6cxf-o4h {
+  box-sizing: border-box;
+  padding: 1.1rem 1.8rem;
+  width: 17.1rem;
+  height: 100%;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: black;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #ffffff;
+  border-radius: 0.6rem;
+  flex-shrink: 0;
+}.ipad-mini-83-1-eBw .group-7-2D3 .auto-group-rjnm-ifX .auto-group-6cxf-o4h::placeholder {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #c4c4c4;
+    font-family: Poppins, 'Source Sans Pro';
+}
+.ipad-mini-83-1-eBw .group-7-2D3 .card-number-Rrm {
+  width: 9.7rem;
+  height: 2.1rem;
+  position: absolute;
+  left: 1.9rem;
+  top: 28.2rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #222222;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.ipad-mini-83-1-eBw .group-7-2D3 .auto-group-c8vh-j6m {
+  width: 35rem;
+  height: 2.1rem;
+  position: absolute;
+  left: 1.9rem;
+  top: 46.2rem;
+  display: flex;
+  align-items: center;
+}
+.ipad-mini-83-1-eBw .group-7-2D3 .auto-group-c8vh-j6m .subtotal-37T {
+  margin-right: 24.5rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #222222;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .group-7-2D3 .auto-group-c8vh-j6m .item-1668-y17 {
+  text-align: right;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #222222;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .group-7-2D3 .auto-group-mg1k-gw7 {
+  width: 35rem;
+  height: 2.1rem;
+  position: absolute;
+  left: 1.9rem;
+  top: 48.9rem;
+  display: flex;
+  align-items: center;
+}
+.ipad-mini-83-1-eBw .group-7-2D3 .auto-group-mg1k-gw7 .shipping-cpm {
+  margin-right: 26.8rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #222222;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .group-7-2D3 .auto-group-mg1k-gw7 .item-4-MGZ {
+  text-align: right;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #222222;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .group-7-2D3 .auto-group-tnkf-5TT {
+  width: 35rem;
+  height: 2.1rem;
+  position: absolute;
+  left: 1.9rem;
+  top: 51.6rem;
+  display: flex;
+  align-items: center;
+}
+.ipad-mini-83-1-eBw .group-7-2D3 .auto-group-tnkf-5TT .total-tax-incl-zqK {
+  margin-right: 19.8rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #222222;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .group-7-2D3 .auto-group-tnkf-5TT .item-1672-Jr1 {
+  text-align: right;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #222222;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .group-7-2D3 .auto-group-avzd-ppM {
+  box-sizing: border-box;
+  padding: 1.1rem 1.8rem;
+  width: 35rem;
+  height: 4rem;
+  position: absolute;
+  left: 1.9rem;
+  top: 30.6rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: black;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #ffffff;
+  border-radius: 0.6rem;
+}.ipad-mini-83-1-eBw .group-7-2D3 .auto-group-avzd-ppM::placeholder {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #c4c4c4;
+    font-family: Poppins, 'Source Sans Pro';
+}
+.ipad-mini-83-1-eBw .group-7-2D3 .auto-group-btyv-owB {
+  box-sizing: border-box;
+  padding: 1.7rem 2rem 1.8rem 2.4rem;
+  width: 35rem;
+  height: 6rem;
+  cursor: pointer;
+  position: absolute;
+  left: 1.9rem;
+  top: 56.3rem;
+  display: flex;
+  align-items: center;
+  background-color: #fefefe;
+  border-radius: 1.2rem;
+}
+.ipad-mini-83-1-eBw .group-7-2D3 .auto-group-btyv-owB .item-1672-UXX {
+  margin: 0.1rem 14.7rem 0rem 0rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #222222;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .group-7-2D3 .auto-group-btyv-owB .checkout-n2R {
+  margin: 0.1rem 0.7rem 0rem 0rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #222222;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .group-7-2D3 .auto-group-btyv-owB .right-JFf {
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .group-7-2D3 .auto-group-qnrb-DNd {
+  width: 35rem;
+  height: 5.5rem;
+  position: absolute;
+  left: 1.9rem;
+  top: 12rem;
+  display: flex;
+  align-items: center;
+}
+.ipad-mini-83-1-eBw .group-7-2D3 .auto-group-qnrb-DNd .rectangle-9-YQu {
+  margin-right: 1.7rem;
+  width: 7.5rem;
+  height: 5.5rem;
+  background-color: rgba(255, 255, 255, 0.6000000238);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/rectangle-9-bg.png');
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .group-7-2D3 .auto-group-qnrb-DNd .rectangle-10-2qs {
+  margin-right: 1.6rem;
+  width: 7.5rem;
+  height: 5.5rem;
+  background-color: rgba(255, 255, 255, 0.6000000238);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/rectangle-10-bg.png');
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .group-7-2D3 .auto-group-qnrb-DNd .rectangle-11-9Qh {
+  margin-right: 1.7rem;
+  width: 7.5rem;
+  height: 5.5rem;
+  background-color: rgba(255, 255, 255, 0.6000000238);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/rectangle-11-bg.png');
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.ipad-mini-83-1-eBw .group-7-2D3 .line-1-UrH {
+  width: 35.0001rem;
+  height: 0.1rem;
+  position: absolute;
+  left: 1.8999rem;
+  top: 44.7462rem;
+  background-color: #ffffff;
+}

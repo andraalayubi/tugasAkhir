@@ -1,0 +1,1385 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+html {
+	font-size:62.5%;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 100%;
+}.final-design-aPP {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+/* Style dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style the button that triggers the dropdown */
+.dropdown img {
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  border-radius: 8px;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Style the dropdown items (links inside the dropdown) */
+.dropdown-content a {
+  font-size: 16px;
+  color: #333;
+  padding: 5px 10px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown when the button is hovered over */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Style modal container */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style modal content */
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Style form elements */
+.modal-content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-content label {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.modal-content input {
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+.modal-content button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-content button.cancel {
+  background-color: #e74c3c; /* Warna merah */
+}
+
+/* Style dropdown container */
+.dropdown-container {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+/* Style the dropdown arrow */
+.dropdown-container::after {
+  content: "\25BC"; /* Unicode karakter untuk panah bawah */
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+/* Style the dropdown itself */
+.dropdown-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+/* Change color on hover and focus */
+.dropdown-select:hover, .dropdown-select:focus {
+  border-color: #3498db;
+}
+
+/* Style dropdown options */
+.dropdown-options {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  margin-top: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Show the dropdown options when the select is focused or hovered over */
+.dropdown-container:hover .dropdown-options, .dropdown-container:focus-within .dropdown-options {
+  display: block;
+}
+
+/* Style individual option */
+.dropdown-options option {
+  padding: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Change color on hover and focus for options */
+.dropdown-options option:hover, .dropdown-options option:focus {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.final-design-aPP .landing-page-UzZ {
+  margin-bottom: 1.5rem;
+  box-sizing: border-box;
+  padding: 4.4rem 0rem 0rem 6.8rem;
+  width: 100%;
+  height: 66.1rem;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .auto-group-2npf-7g9 {
+  margin: 0rem 7rem 4.3rem 0.9rem;
+  width: calc(100% - 7.9rem);
+  height: 3.6rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .auto-group-2npf-7g9 .maskerku-1Fj {
+  cursor: pointer;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.18;
+  color: #1e1e1e;
+  font-family: Abhaya Libre, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .auto-group-2npf-7g9 .auto-group-r64m-iA9 {
+  box-sizing: border-box;
+  padding: 0.2rem 0rem 0.2rem 26.9rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .auto-group-2npf-7g9 .auto-group-r64m-iA9 .frame-1-2Rj {
+  margin: 0rem 28.5rem 0.5rem 0rem;
+  display: flex;
+  column-gap: 4.8rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .auto-group-2npf-7g9 .auto-group-r64m-iA9 .frame-1-2Rj .home-MU1 {
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #1e1e1e;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .auto-group-2npf-7g9 .auto-group-r64m-iA9 .frame-1-2Rj .products-cHT {
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #1e1e1e;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .auto-group-2npf-7g9 .auto-group-r64m-iA9 .frame-1-2Rj .contacts-8Wh {
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #1e1e1e;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .auto-group-2npf-7g9 .auto-group-r64m-iA9 .frame-2-5B3 {
+  margin: 0.2rem 0rem 0.6rem 0rem;
+  box-sizing: border-box;
+  padding: 0.15rem 0.3rem 0rem 0rem;
+  height: calc(100% - 0.8rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .auto-group-2npf-7g9 .auto-group-r64m-iA9 .frame-2-5B3 .cart-atV {
+  margin-right: 4.2501rem;
+  width: 2.2499rem;
+  height: 2.25rem;
+  cursor: pointer;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .auto-group-2npf-7g9 .auto-group-r64m-iA9 .frame-2-5B3 .person-W1T {
+  margin-bottom: 0.15rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  cursor: pointer;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .frame-3-ECM {
+  margin: 0rem 6.1rem 11.4rem 0rem;
+  box-sizing: border-box;
+  padding-left: 4.8rem;
+  width: 115.1rem;
+  height: 49.4rem;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #c1dcdc;
+  border-radius: 2.4rem;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .frame-3-ECM .frame-9-i7X {
+  margin: 5.3rem 6.6rem 5.3rem 0rem;
+  width: 50.5rem;
+  height: calc(100% - 10.6rem);
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .frame-3-ECM .frame-9-i7X .frame-7-SJR {
+  margin-bottom: 3.9rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.final-design-aPP .landing-page-UzZ .frame-3-ECM .frame-9-i7X .frame-7-SJR .lets-keep-ourfamily-healthy-zaq {
+  margin-bottom: 5.1rem;
+  max-width: 50.5rem;
+  font-size: 6.4rem;
+  font-weight: 800;
+  line-height: 1;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .frame-3-ECM .frame-9-i7X .frame-7-SJR .frame-6-Uku {
+  margin: 0rem 21.9rem 0rem 1rem;
+  width: calc(100% - 22.9rem);
+  height: 10.6rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .frame-3-ECM .frame-9-i7X .frame-7-SJR .frame-6-Uku .auto-group-cd8z-c6R {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .frame-3-ECM .frame-9-i7X .frame-7-SJR .frame-6-Uku .auto-group-cd8z-c6R .item-95-Mph {
+  margin: 0rem 0rem 0.4rem 0.1rem;
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #1e1e1e;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .frame-3-ECM .frame-9-i7X .frame-7-SJR .frame-6-Uku .auto-group-cd8z-c6R .effectifity-guarantee-fKb {
+  max-width: 9.8rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #1e1e1e;
+  font-family: Poppins, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .frame-3-ECM .frame-9-i7X .frame-7-SJR .frame-6-Uku .auto-group-xa8v-9kZ {
+  box-sizing: border-box;
+  padding: 0.35rem 0rem 0.05rem 3.8rem;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .frame-3-ECM .frame-9-i7X .frame-7-SJR .frame-6-Uku .auto-group-xa8v-9kZ .line-2-3L9 {
+  margin: 0.55rem 4.4rem 0rem 0rem;
+  width: 0rem;
+  height: 0.1rem;
+  background-color: #1e1e1e;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .frame-3-ECM .frame-9-i7X .frame-7-SJR .frame-6-Uku .auto-group-xa8v-9kZ .frame-5-ZJV {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .frame-3-ECM .frame-9-i7X .frame-7-SJR .frame-6-Uku .auto-group-xa8v-9kZ .frame-5-ZJV .k-KHf {
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #1e1e1e;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .frame-3-ECM .frame-9-i7X .frame-7-SJR .frame-6-Uku .auto-group-xa8v-9kZ .frame-5-ZJV .activeconsumer-f6d {
+  max-width: 9.6rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #1e1e1e;
+  font-family: Poppins, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .frame-3-ECM .frame-9-i7X .frame-8-BKs {
+  border-color: #ffffff;
+  margin-right: 21.7rem;
+  box-sizing: border-box;
+  padding: 1.8rem 3.186rem 1.9rem 2.4rem;
+  width: calc(100% - 21.7rem);
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 1.4rem;
+}
+.final-design-aPP .landing-page-UzZ .frame-3-ECM .frame-9-i7X .frame-8-BKs .lets-make-a-tour-sTb {
+  margin-right: 6.2rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgba(30, 30, 30, 0.5);
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .frame-3-ECM .frame-9-i7X .frame-8-BKs .group-23-zo7 {
+  margin-bottom: 1.2rem;
+  width: 1.4142rem;
+  height: 1.5rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .frame-3-ECM .auto-group-5wmx-6r9 {
+  margin-right: 1.4rem;
+  width: 45rem;
+  height: 50.8rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .frame-3-ECM .auto-group-5wmx-6r9 .rectangle-2-dr5 {
+  width: 45rem;
+  height: 50rem;
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+  background-color: #ffffff;
+  border-radius: 20rem 20rem 0 20rem;
+}
+.final-design-aPP .landing-page-UzZ .frame-3-ECM .auto-group-5wmx-6r9 .boy-74823531280-removebg-preview-1-1-Yi9 {
+  width: 31.6rem;
+  height: 48.5rem;
+  position: absolute;
+  left: 8.5rem;
+  top: 2.3rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.final-design-aPP .landing-page-UzZ .frame-3-ECM .frame-57-dzV {
+  margin: 19.7rem 0;
+  width: 10rem;
+  height: calc(100% - 39.4rem);
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .auto-group-iuh7-Ybf {
+  margin-left: 2.8rem;
+  height: 43.6rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .auto-group-iuh7-Ybf .auto-group-peqb-gC5 {
+  margin-right: 4.8rem;
+  width: 55.5333rem;
+  height: 100%;
+  position: relative;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .auto-group-iuh7-Ybf .auto-group-peqb-gC5 .frame-12-RfT {
+  width: 51.4rem;
+  height: 26.4rem;
+  position: absolute;
+  left: 0;
+  top: 0.1rem;
+}
+.final-design-aPP .landing-page-UzZ .auto-group-iuh7-Ybf .auto-group-peqb-gC5 .frame-12-RfT .frame-10-N4u {
+  margin-bottom: 7.8rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.final-design-aPP .landing-page-UzZ .auto-group-iuh7-Ybf .auto-group-peqb-gC5 .frame-12-RfT .frame-10-N4u .best-selling-plants-vMK {
+  margin-bottom: 6rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #1e1e1e;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .auto-group-iuh7-Ybf .auto-group-peqb-gC5 .frame-12-RfT .frame-10-N4u .easiest-way-to-healthy-life-by-buying-your-favorite-plants-T6M {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgba(30, 30, 30, 0.5);
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .auto-group-iuh7-Ybf .auto-group-peqb-gC5 .frame-12-RfT .frame-11-m73 {
+  margin-right: 34.6rem;
+  box-sizing: border-box;
+  padding: 1.2rem 2.55rem 1.2rem 2.4rem;
+  width: calc(100% - 34.6rem);
+  display: flex;
+  align-items: center;
+  background-color: #c1dcdc;
+  border-radius: 0.8rem;
+}
+.final-design-aPP .landing-page-UzZ .auto-group-iuh7-Ybf .auto-group-peqb-gC5 .frame-12-RfT .frame-11-m73 .see-more-sfs {
+  margin-right: 1.15rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #1e1e1e;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .auto-group-iuh7-Ybf .auto-group-peqb-gC5 .frame-12-RfT .frame-11-m73 .arrowright-DUq {
+  margin-top: 0rem;
+  width: 2.1001rem;
+  height: 1.1252rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .auto-group-iuh7-Ybf .auto-group-peqb-gC5 .frame-14-97b {
+  width: 29.9333rem;
+  height: 43.6rem;
+  position: absolute;
+  left: 25.6rem;
+  top: 0;
+}
+.final-design-aPP .landing-page-UzZ .auto-group-iuh7-Ybf .auto-group-peqb-gC5 .frame-14-97b .frame-9-g7X {
+  margin-bottom: 1.2rem;
+  width: 100%;
+  height: 36.3rem;
+  overflow: hidden;
+  position: relative;
+  background-color: #b6b5b5;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/frame-9-bg-1gZ.png');
+  border-radius: 1.2rem;
+}
+.final-design-aPP .landing-page-UzZ .auto-group-iuh7-Ybf .auto-group-peqb-gC5 .frame-14-97b .frame-13-xqj {
+  display: flex;
+  flex-direction: column;
+}
+.final-design-aPP .landing-page-UzZ .auto-group-iuh7-Ybf .auto-group-peqb-gC5 .frame-14-97b .frame-13-xqj .natural-plants-KwB {
+  margin-bottom: 0.7rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #1e1e1e;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .auto-group-iuh7-Ybf .auto-group-peqb-gC5 .frame-14-97b .frame-13-xqj .item-140000-G5j {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgba(30, 30, 30, 0.5);
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .auto-group-iuh7-Ybf .frame-15-BCh {
+  margin-right: 4.8rem;
+  width: 29.9333rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .auto-group-iuh7-Ybf .frame-15-BCh .frame-8-vRB {
+  margin-bottom: 1.2rem;
+  width: 100%;
+  height: 36.3rem;
+  overflow: hidden;
+  position: relative;
+  background-color: #b6b5b5;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/frame-8-bg-UtM.png');
+  border-radius: 1.2rem;
+}
+.final-design-aPP .landing-page-UzZ .auto-group-iuh7-Ybf .frame-15-BCh .frame-14-SuK {
+  display: flex;
+  flex-direction: column;
+}
+.final-design-aPP .landing-page-UzZ .auto-group-iuh7-Ybf .frame-15-BCh .frame-14-SuK .artificial-plants-QbF {
+  margin-bottom: 0.7rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #1e1e1e;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .auto-group-iuh7-Ybf .frame-15-BCh .frame-14-SuK .item-90000-Ljo {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgba(30, 30, 30, 0.5);
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .auto-group-iuh7-Ybf .frame-16-5Bb {
+  width: 29.9333rem;
+  height: 100%;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .auto-group-iuh7-Ybf .frame-16-5Bb .frame-7-pQ5 {
+  margin-bottom: 1.2rem;
+  width: 100%;
+  height: 36.3rem;
+  overflow: hidden;
+  position: relative;
+  background-color: #b6b5b5;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/frame-7-bg-5pR.png');
+  border-radius: 1.2rem;
+}
+.final-design-aPP .landing-page-UzZ .auto-group-iuh7-Ybf .frame-16-5Bb .frame-15-9BT {
+  display: flex;
+  flex-direction: column;
+}
+.final-design-aPP .landing-page-UzZ .auto-group-iuh7-Ybf .frame-16-5Bb .frame-15-9BT .artificial-plants-uRX {
+  margin-bottom: 0.7rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #1e1e1e;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.final-design-aPP .landing-page-UzZ .auto-group-iuh7-Ybf .frame-16-5Bb .frame-15-9BT .item-350000-eP7 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgba(30, 30, 30, 0.5);
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.final-design-aPP .auto-group-avmo-YjP {
+  margin-bottom: 5.2rem;
+  width: 100%;
+  height: 103.8rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.final-design-aPP .auto-group-avmo-YjP .about-us-h6V {
+  box-sizing: border-box;
+  padding: 0rem 7.874rem 0rem 15.85rem;
+  width: 100%;
+  height: 34.9rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+.final-design-aPP .auto-group-avmo-YjP .about-us-h6V .group-14-ovD {
+  width: 100%;
+  height: 30.9rem;
+  display: flex;
+  align-items: flex-end;
+}
+.final-design-aPP .auto-group-avmo-YjP .about-us-h6V .group-14-ovD .auto-group-mxch-xYD {
+  margin-right: 9.8rem;
+  width: 22.1rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.final-design-aPP .auto-group-avmo-YjP .about-us-h6V .group-14-ovD .auto-group-mxch-xYD .auto-group-1rey-hVo {
+  margin: 0rem 6.65rem 2.4rem 5.85rem;
+  box-sizing: border-box;
+  padding: 2.8rem;
+  width: calc(100% - 12.5rem);
+  background-color: #c1dcdc;
+  border-radius: 4.8rem;
+  flex-shrink: 0;
+}
+.final-design-aPP .auto-group-avmo-YjP .about-us-h6V .group-14-ovD .auto-group-mxch-xYD .auto-group-1rey-hVo .healthcare-1-dPT {
+  width: 4rem;
+  height: 4rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.final-design-aPP .auto-group-avmo-YjP .about-us-h6V .group-14-ovD .auto-group-mxch-xYD .guaranteed-health-kys {
+  margin: 0rem 0.7rem 1.2rem 0rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.final-design-aPP .auto-group-avmo-YjP .about-us-h6V .group-14-ovD .auto-group-mxch-xYD .effective-filtration-99-effective-protection-gMj {
+  max-width: 22.1rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgba(30, 30, 30, 0.5);
+  font-family: Poppins, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.final-design-aPP .auto-group-avmo-YjP .about-us-h6V .group-14-ovD .auto-group-fkr9-BJV {
+  margin-right: 6.0761rem;
+  width: 29.3rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.final-design-aPP .auto-group-avmo-YjP .about-us-h6V .group-14-ovD .auto-group-fkr9-BJV .about-us-X7T {
+  margin: 0rem 0rem 4.8rem 3.2rem;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #1e1e1e;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.final-design-aPP .auto-group-avmo-YjP .about-us-h6V .group-14-ovD .auto-group-fkr9-BJV .frame-21-SVK {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.final-design-aPP .auto-group-avmo-YjP .about-us-h6V .group-14-ovD .auto-group-fkr9-BJV .frame-21-SVK .frame-18-QBF {
+  margin: 0rem 8.7rem 1.2rem 8.7rem;
+  width: calc(100% - 17.4rem);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.final-design-aPP .auto-group-avmo-YjP .about-us-h6V .group-14-ovD .auto-group-fkr9-BJV .frame-21-SVK .frame-18-QBF .group-1-jUR {
+  margin: 0rem 1.15rem 2.4rem 1.15rem;
+  box-sizing: border-box;
+  padding: 2.8rem 2.8rem 2.8rem 2.8rem;
+  width: calc(100% - 2.3rem);
+  background-color: #c1dcdc;
+  border-radius: 4.8rem;
+  flex-shrink: 0;
+}
+.final-design-aPP .auto-group-avmo-YjP .about-us-h6V .group-14-ovD .auto-group-fkr9-BJV .frame-21-SVK .frame-18-QBF .group-1-jUR .telephoneoutbound-ebP {
+  width: 4.0001rem;
+  height: 4.0001rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.final-design-aPP .auto-group-avmo-YjP .about-us-h6V .group-14-ovD .auto-group-fkr9-BJV .frame-21-SVK .frame-18-QBF .support-mvu {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.final-design-aPP .auto-group-avmo-YjP .about-us-h6V .group-14-ovD .auto-group-fkr9-BJV .frame-21-SVK .answers-to-any-business-related-inquiry-24-7-and-in-real-time-Wdb {
+  max-width: 29.3rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgba(30, 30, 30, 0.5);
+  font-family: Poppins, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.final-design-aPP .auto-group-avmo-YjP .about-us-h6V .group-14-ovD .frame-22-REm {
+  width: 37rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.final-design-aPP .auto-group-avmo-YjP .about-us-h6V .group-14-ovD .frame-22-REm .frame-18-Nvh {
+  margin: 0rem 9.1rem 1.2rem 9.1rem;
+  width: calc(100% - 18.2rem);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.final-design-aPP .auto-group-avmo-YjP .about-us-h6V .group-14-ovD .frame-22-REm .frame-18-Nvh .group-1-iUm {
+  margin: 0rem 4.6rem 2.4rem 4.6rem;
+  box-sizing: border-box;
+  padding: 2.8rem 2.8rem 2.819rem 2.8rem;
+  width: calc(100% - 9.2rem);
+  background-color: #c1dcdc;
+  border-radius: 4.8rem;
+  flex-shrink: 0;
+}
+.final-design-aPP .auto-group-avmo-YjP .about-us-h6V .group-14-ovD .frame-22-REm .frame-18-Nvh .group-1-iUm .vector-ECD {
+  width: 4rem;
+  height: 3.9808rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.final-design-aPP .auto-group-avmo-YjP .about-us-h6V .group-14-ovD .frame-22-REm .frame-18-Nvh .fast-free-shipping-kwF {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.final-design-aPP .auto-group-avmo-YjP .about-us-h6V .group-14-ovD .frame-22-REm .day-or-less-delivery-time-free-shipping-and-an-expedited-delivery-option-gpu {
+  max-width: 37rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgba(30, 30, 30, 0.5);
+  font-family: Poppins, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.final-design-aPP .auto-group-avmo-YjP .categories-AVB {
+  box-sizing: border-box;
+  padding-top: 8.6rem;
+  width: 100%;
+  height: 71.8rem;
+  position: absolute;
+  left: 0;
+  top: 32rem;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+.final-design-aPP .auto-group-avmo-YjP .categories-AVB .frame-58-tvy {
+  width: 100%;
+  height: 98.8rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.final-design-aPP .auto-group-avmo-YjP .categories-AVB .frame-58-tvy .frame-24-FFj {
+  margin: 0rem 58.9rem 3rem 58.9rem;
+  width: calc(100% - 117.8rem);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.final-design-aPP .auto-group-avmo-YjP .categories-AVB .frame-58-tvy .frame-24-FFj .our-product-b4h {
+  margin-bottom: 1.2rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #1e1e1e;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.final-design-aPP .auto-group-avmo-YjP .categories-AVB .frame-58-tvy .frame-24-FFj .find-what-you-are-looking-for-Xj3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgba(30, 30, 30, 0.5);
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.final-design-aPP .auto-group-avmo-YjP .categories-AVB .frame-58-tvy .frame-25-Tsb {
+  width: 100%;
+  height: 87.1rem;
+  position: relative;
+  background-color: #c1dcdc;
+  flex-shrink: 0;
+}
+.final-design-aPP .auto-group-avmo-YjP .categories-AVB .frame-58-tvy .frame-25-Tsb .group-24-cVb {
+  width: 37.1rem;
+  height: 48.5rem;
+  position: absolute;
+  left: 18.8rem;
+  top: 0.9rem;
+}
+.final-design-aPP .auto-group-avmo-YjP .categories-AVB .frame-58-tvy .frame-25-Tsb .group-24-cVb .rectangle-6-LgV {
+  width: 32rem;
+  height: 32rem;
+  position: absolute;
+  left: 1.3rem;
+  top: 3.7rem;
+  background-color: #ffffff;
+  border-radius: 3.7rem;
+}
+.final-design-aPP .auto-group-avmo-YjP .categories-AVB .frame-58-tvy .frame-25-Tsb .group-24-cVb .headloop-mask-46h {
+  width: 14.3rem;
+  height: 2.7rem;
+  position: absolute;
+  left: 10.2rem;
+  top: 36.8rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #1e1e1e;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.final-design-aPP .auto-group-avmo-YjP .categories-AVB .frame-58-tvy .frame-25-Tsb .group-24-cVb .download1-removebg-preview-1-mG1 {
+  width: 37.1rem;
+  height: 48.5rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  vertical-align: top;
+}
+.final-design-aPP .auto-group-avmo-YjP .categories-AVB .frame-58-tvy .frame-25-Tsb .group-15-Vho {
+  width: 32rem;
+  height: 35.8rem;
+  position: absolute;
+  left: 75.3rem;
+  top: 4.6rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.final-design-aPP .auto-group-avmo-YjP .categories-AVB .frame-58-tvy .frame-25-Tsb .group-15-Vho .auto-group-t7cq-pzy {
+  margin-bottom: 1.1rem;
+  box-sizing: border-box;
+  padding: 3.1rem 1.5rem 2.3rem 1.5rem;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 3.7rem;
+  flex-shrink: 0;
+}
+.final-design-aPP .auto-group-avmo-YjP .categories-AVB .frame-58-tvy .frame-25-Tsb .group-15-Vho .auto-group-t7cq-pzy .download-removebg-preview-1-ktd {
+  width: 29rem;
+  height: 26.6rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.final-design-aPP .auto-group-avmo-YjP .categories-AVB .frame-58-tvy .frame-25-Tsb .group-15-Vho .earloop-mask-5g1 {
+  margin-right: 1.8rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #1e1e1e;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.final-design-aPP .auto-group-avmo-YjP .categories-AVB .frame-58-tvy .frame-25-Tsb .frame-9-cR3 {
+  width: 28.8rem;
+  height: 6.4rem;
+  cursor: pointer;
+  position: absolute;
+  left: 49rem;
+  top: 43rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #1e1e1e;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 1.4rem;
+}
+.final-design-aPP .testimonial-R7b {
+  margin-bottom: 1.3rem;
+  box-sizing: border-box;
+  padding: 2.801rem 18.2rem 5.2rem 10.7rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.final-design-aPP .testimonial-R7b .frame-24-XRX {
+  margin: 0rem 36.7rem 2.899rem 44.3rem;
+  width: calc(100% - 81rem);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.final-design-aPP .testimonial-R7b .frame-24-XRX .contact-us-fGq {
+  margin-bottom: 0.6rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #1e1e1e;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.final-design-aPP .testimonial-R7b .frame-24-XRX .tell-us-anything-bAV {
+  margin-right: 0.1rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgba(30, 30, 30, 0.5);
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.final-design-aPP .testimonial-R7b .group-22-iku {
+  margin: 0rem 0rem 5.2rem 7.5rem;
+  width: 91.6rem;
+  height: 56.9rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.final-design-aPP .testimonial-R7b .group-22-iku .group-20-qqX {
+  box-sizing: border-box;
+  padding: 5.021rem 13.835rem 1.952rem 13.835rem;
+  width: 69.2725rem;
+  height: 56.9rem;
+  position: absolute;
+  left: 22.3275rem;
+  top: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/frame-45.png');
+}
+.final-design-aPP .testimonial-R7b .group-22-iku .group-20-qqX .group-19-Mos {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.final-design-aPP .testimonial-R7b .group-22-iku .group-20-qqX .group-19-Mos .auto-group-3yvj-6mT {
+  margin-bottom: 4.6487rem;
+  box-sizing: border-box;
+  padding: 1.922rem 3.026rem 2.015rem 3.026rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: black;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: rgba(250, 251, 252, 0.9399999976);
+  border-radius: 1rem;
+  flex-shrink: 0;
+}.final-design-aPP .testimonial-R7b .group-22-iku .group-20-qqX .group-19-Mos .auto-group-3yvj-6mT::placeholder {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.1725;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Roboto, 'Source Sans Pro';
+}
+.final-design-aPP .testimonial-R7b .group-22-iku .group-20-qqX .group-19-Mos .auto-group-6je1-5dP {
+  margin-bottom: 4.6487rem;
+  box-sizing: border-box;
+  padding: 1.922rem 2.907rem 2.015rem 2.907rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: black;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: rgba(250, 251, 252, 0.9399999976);
+  border-radius: 1rem;
+  flex-shrink: 0;
+}.final-design-aPP .testimonial-R7b .group-22-iku .group-20-qqX .group-19-Mos .auto-group-6je1-5dP::placeholder {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.1725;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Roboto, 'Source Sans Pro';
+}
+.final-design-aPP .testimonial-R7b .group-22-iku .group-20-qqX .group-19-Mos .auto-group-frmk-5mo {
+  margin-bottom: 3.44rem;
+  box-sizing: border-box;
+  padding: 1.9216rem 3.2209rem;
+  width: 100%;
+  height: 19.7105rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.1725;
+  color: black;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: rgba(250, 251, 252, 0.9399999976);
+  border-radius: 1rem;
+  flex-shrink: 0;
+}.final-design-aPP .testimonial-R7b .group-22-iku .group-20-qqX .group-19-Mos .auto-group-frmk-5mo::placeholder {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.1725;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Roboto, 'Source Sans Pro';
+}
+.final-design-aPP .testimonial-R7b .group-22-iku .group-20-qqX .group-19-Mos .group-18-W6R {
+  margin: 0rem 15.457rem 0rem 13.358rem;
+  width: calc(100% - 28.8158rem);
+  height: 5.2065rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  color: #000000;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: rgba(250, 251, 252, 0.6499999762);
+  flex-shrink: 0;
+}
+.final-design-aPP .testimonial-R7b .group-22-iku .boy-78951291280-removebg-preview-1-jE5 {
+  width: 29.8654rem;
+  height: 53.6459rem;
+  position: absolute;
+  left: 0;
+  top: 1.3016rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.final-design-aPP .testimonial-R7b .frame-49-qY1 {
+  margin-right: 90.7rem;
+  display: flex;
+  column-gap: 0.6rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.final-design-aPP .testimonial-R7b .frame-49-qY1 .rectangle-5-aVb {
+  width: 1.2rem;
+  height: 0.6rem;
+  background-color: #d9d9d9;
+  border-radius: 1.2rem;
+  flex-shrink: 0;
+}
+.final-design-aPP .testimonial-R7b .frame-49-qY1 .rectangle-4-KCH {
+  width: 1.2rem;
+  height: 0.6rem;
+  background-color: #d9d9d9;
+  border-radius: 1.2rem;
+  flex-shrink: 0;
+}
+.final-design-aPP .testimonial-R7b .frame-49-qY1 .rectangle-3-TJV {
+  width: 4.8rem;
+  height: 0.6rem;
+  background-color: #c1dcdc;
+  border-radius: 1.2rem;
+  flex-shrink: 0;
+}
+.final-design-aPP .footer-z3X {
+  box-sizing: border-box;
+  padding: 4.8rem 8.3rem 2.1rem 9.6rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #c1dcdc;
+  flex-shrink: 0;
+}
+.final-design-aPP .footer-z3X .auto-group-rk29-iER {
+  margin-bottom: 9.9rem;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.final-design-aPP .footer-z3X .auto-group-rk29-iER .frame-52-G13 {
+  margin-right: 63.2rem;
+  width: 19.2rem;
+  flex-shrink: 0;
+}
+.final-design-aPP .footer-z3X .auto-group-rk29-iER .frame-52-G13 .frame-50-cah {
+  margin: 0rem 0rem 2.4rem 0.15rem;
+  display: flex;
+  flex-direction: column;
+}
+.final-design-aPP .footer-z3X .auto-group-rk29-iER .frame-52-G13 .frame-50-cah .maskerku-kwo {
+  margin-bottom: 2.3rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.18;
+  color: #000000;
+  font-family: Abhaya Libre, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.final-design-aPP .footer-z3X .auto-group-rk29-iER .frame-52-G13 .frame-50-cah .lets-take-care-of-our-health-together-Hgq {
+  max-width: 18.3rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgba(30, 30, 30, 0.5);
+  font-family: Poppins, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.final-design-aPP .footer-z3X .auto-group-rk29-iER .frame-52-G13 .frame-51-nNh {
+  width: 100%;
+  display: flex;
+  column-gap: 2.4rem;
+  align-items: center;
+}
+.final-design-aPP .footer-z3X .auto-group-rk29-iER .frame-52-G13 .frame-51-nNh .group-11-8xM {
+  width: 4.8rem;
+  height: 4.8rem;
+  cursor: pointer;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.final-design-aPP .footer-z3X .auto-group-rk29-iER .frame-52-G13 .frame-51-nNh .group-12-tAq {
+  width: 4.8rem;
+  height: 4.8rem;
+  cursor: pointer;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.final-design-aPP .footer-z3X .auto-group-rk29-iER .frame-52-G13 .frame-51-nNh .group-13-EkV {
+  width: 4.8rem;
+  height: 4.8rem;
+  cursor: pointer;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.final-design-aPP .footer-z3X .auto-group-rk29-iER .frame-56-yTB {
+  margin-top: 0.2rem;
+  height: 17.6rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.final-design-aPP .footer-z3X .auto-group-rk29-iER .frame-56-yTB .frame-53-KG9 {
+  margin-right: 4.8rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.final-design-aPP .footer-z3X .auto-group-rk29-iER .frame-56-yTB .frame-53-KG9 .information-Tt9 {
+  margin-bottom: 2.4rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #1e1e1e;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.final-design-aPP .footer-z3X .auto-group-rk29-iER .frame-56-yTB .frame-53-KG9 .about-oSD {
+  margin-bottom: 2.8rem;
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: rgba(30, 30, 30, 0.5);
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.final-design-aPP .footer-z3X .auto-group-rk29-iER .frame-56-yTB .frame-53-KG9 .product-K9f {
+  margin-bottom: 2.8rem;
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: rgba(30, 30, 30, 0.5);
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.final-design-aPP .footer-z3X .auto-group-rk29-iER .frame-56-yTB .frame-53-KG9 .contact-EnR {
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: rgba(30, 30, 30, 0.5);
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.final-design-aPP .footer-z3X .auto-group-rk29-iER .frame-56-yTB .frame-55-aLV {
+  height: 100%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.final-design-aPP .footer-z3X .auto-group-rk29-iER .frame-56-yTB .frame-55-aLV .social-media-877 {
+  margin-bottom: 2.4rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #1e1e1e;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.final-design-aPP .footer-z3X .auto-group-rk29-iER .frame-56-yTB .frame-55-aLV .facebook-f73 {
+  margin-bottom: 2.8rem;
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: rgba(30, 30, 30, 0.5);
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.final-design-aPP .footer-z3X .auto-group-rk29-iER .frame-56-yTB .frame-55-aLV .instagram-zQD {
+  margin-bottom: 2.8rem;
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: rgba(30, 30, 30, 0.5);
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.final-design-aPP .footer-z3X .auto-group-rk29-iER .frame-56-yTB .frame-55-aLV .twitter-KSV {
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: rgba(30, 30, 30, 0.5);
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.final-design-aPP .footer-z3X .all-right-reserved-term-of-use-maskerku-eDs {
+  margin-left: 0.1rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgba(30, 30, 30, 0.5);
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}

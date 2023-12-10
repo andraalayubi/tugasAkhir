@@ -1,0 +1,38 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Cart {
+  cart_id   Int      @id @default(autoincrement())
+  user_id   Int
+  product_id Int
+  quantity  Int
+  total     Decimal
+  date      DateTime @default(now()) // Tambahkan kolom date dengan nilai default sekarang
+  User      User     @relation(fields: [user_id], references: [user_id])
+  Product   Product  @relation(fields: [product_id], references: [product_id])
+}
+
+model Product {
+  product_id      Int      @id @default(autoincrement())
+  product_name    String?
+  price           Float?
+  stock_quantity  Int?
+  carts          Cart[]
+}
+
+model User {
+  user_id   Int      @id @default(autoincrement())
+  username  String?
+  password  String?
+  email     String?
+  carts    Cart[]
+}
