@@ -1,67 +1,182 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>Group 1000002749</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abhaya+Libre+Medium%3A500" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins%3A400" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans%3A400" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abhaya+Libre+SemiBold%3A600" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500%2C600" />
+  <link rel="stylesheet" href="/css/admin.css" />
+  <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
 </head>
 <body>
-  <h1>Data Penjualan</h1>
+  <div class="group-1000002749-1Am">
+    <div class="background-REV">
+      <div class="auto-group-gux5-PU9">
+        <div class="group-1000002759-Qu3">
+          <div class="admin-maskerku-Xim">ADMIN MASKERKU</div>
+          <img class="vector-6-NDb" src="REPLACE_IMAGE:1:106" />
+          <div class="group-1000002754-uUR">
+            <div class="group-1000002755-pbP">
+              <img class="auto-group-58r9-iih" src="./assets/auto-group-58r9.png" />
+              <div class="dashboard-TAV">Dashboard</div>
+            </div>
+            <div class="auto-group-ws17-6DT">
+              <div class="group-1000002757-Yjf" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <img class="auto-group-yaw7-5zV" src="./assets/auto-group-yaw7.png" />
+                <div class="add-stock-E6h">Add Stock</div>
+              </div>
 
-  <h2>Jumlah Penjualan per Item:</h2>
-  <ul>
-    <% dataAdmin.cartData.salesPerItem.forEach(item=> { %>
-      <li>Produk ID: <%= item.product_id %>, Jumlah Terjual: <%= item._count.quantity %>
-      </li>
-      <% }); %>
-  </ul>
-
-  
-  <h2>Penjualan Terbaru:</h2>
-  <ul>
-    <% dataAdmin.cartData.latestSales.forEach(sale=> { %>
-      <li>Produk ID: <%= sale.product_id %>, Jumlah: <%= sale.quantity %>
-      </li>
-    <% }); %>
-  </ul>
-
-  <canvas id="myChart"></canvas>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-sm">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Tambah Stok Produk</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="/admin">
+                            <select class="form-select mb-3" aria-label="Default select example">
+                                <option selected>Pilih Produk</option>
+                                <option value="1">Masker Headloop</option>
+                                <option value="2">Masker Earloop</option>
+                            </select>
+                            <div class="form-floating">
+                                <input type="number" class="form-control" id="jumlah" placeholder="Jumlah">
+                                <label>Jumlah</label>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="auto-group-glzh-MBK">
+          <div class="breadcrumb-tww">
+            <p class="dashboard-4Ld">Dashboard</p>
+            <div class="dropdown">
+              <button class="border-0" data-bs-toggle="dropdown" aria-expanded="false">
+                <img class="menu-Ns7" src="./assets/menu.png" />
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item fs-5" href="/logout">Sign Out</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="auto-group-vfbt-WCd">
+            <div class="group-1000002760-epd">
+              <% dataAdmin.cartData.products.forEach(item=> { %>
+              <div class="todays-money-nR3">
+                <div class="text-uVf">
+                  <p class="todays-money-Tn5">Produk ID: <%= item.product_id %></p>
+                  <p class="item-53000-YoX">Stok: <%= item.stock_quantity %></p>
+                </div>
+                <img class="icon-HFK" src="./assets/icon-QDb.png" />
+              </div>
+              <% }); %>
+            </div>
+            <div class="background-mTK">
+              <div class="text-6Vb">
+                <p class="recent-sales-rDs">
+                  <span class="recent-sales-rDs-sub-0 text-black">&nbsp;Recent&nbsp;</span>
+                  <span class="recent-sales-rDs-sub-1 text-black"> Sales</span>
+                </p>
+              </div>
+              <table class="table table-hover">
+                <thead>
+                    <tr>
+                      <th scope="col" class="w-25 fs-4 text-secondary">Customer Name</th>
+                      <th scope="col" class="w-25 fs-4 text-secondary">Date</th>
+                      <th scope="col" class="w-10 fs-4 text-secondary">Product ID</th>
+                      <th scope="col" class="w-10 fs-4 text-secondary">Quantity</th>
+                      <th scope="col" class="w-15 fs-4 text-secondary me-3">Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% dataAdmin.cartData.latestSales.forEach(item => { %>
+                        <tr>
+                            <td class="fs-4 fw-bolder"><%= item.user.username %></td>
+                            <td class="fs-4 fw-bolder"><%= item.date.toISOString().split('T')[0] %></td>
+                            <td class="fs-4 fw-bolder"><%= item.product_id %></td>
+                            <td class="fs-4 fw-bolder"><%= item.quantity %></td>
+                            <td class="fs-4 fw-bolder">Rp. <%= item.total %>.000,-</td>
+                        </tr>
+                    <% }); %>
+                </tbody>
+            </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="auto-group-ghdf-KmX">
+        <div class="rectangle-7-rFf">
+        </div>
+        <div class="total-revenue-mdX">
+          <div class="group-1000002743-VpR">
+            <p class="total-revenue-3b3">Total Revenue</p>
+            <div class="row">
+              <!-- Produk 1 -->
+              <div class="col">
+                  <h2>Produk 1</h2>
+                  <table class="table table-hover">
+                      <thead>
+                          <tr>
+                              <th scope="col" class="w-15 fs-4 text-secondary">Tanggal</th>
+                              <th scope="col" class="w-15 fs-4 text-secondary">Total</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <!-- Isi tabel produk 1 -->
+                          <% dataAdmin.produk1.forEach(item => { %>
+                              <tr>
+                                  <td class="fs-4 fw-bolder"><%= item.date.toISOString().split('T')[0] %></td>
+                                  <td class="fs-4 fw-bolder"><%= item._sum.total %></td>
+                              </tr>
+                          <% }); %>
+                      </tbody>
+                  </table>
+              </div>
+      
+              <!-- Produk 2 -->
+              <div class="col">
+                  <h2>Produk 2</h2>
+                  <table class="table table-hover">
+                      <thead>
+                          <tr>
+                              <th scope="col" class="w-15 fs-4 text-secondary">Tanggal</th>
+                              <th scope="col" class="w-15 fs-4 text-secondary">Total</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <!-- Isi tabel produk 2 -->
+                          <% dataAdmin.produk2.forEach(item => { %>
+                              <tr>
+                                  <td class="fs-4 fw-bolder"><%= item.date.toISOString().split('T')[0] %></td>
+                                  <td class="fs-4 fw-bolder"><%= item._sum.total %></td>
+                              </tr>
+                          <% }); %>
+                      </tbody>
+                  </table>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <p class="all-right-reserved-term-of-use-maskerku-MWV">2023 all Right Reserved Term of use MASKERKU</p>
+    </div>
+  </div>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
-    const dates = tes.map(entry => entry.date);
-    const totalProduk1 = tes.map(entry => entry._sum.total);
-    const totalProduk2 = tes1.map(entry => entry._sum.total);
-
-    // Create a chart
-    const ctx = document.getElementById('myChart').getContext('2d');
-    const myChart = new Chart(ctx, {
-      type: 'bar',
-      data: {
-        labels: dates,
-        datasets: [
-          {
-            label: 'Produk 1',
-            data: totalProduk1,
-            backgroundColor: 'rgba(255, 99, 132, 0.5)', // Adjust color as needed
-            borderColor: 'rgba(255, 99, 132, 1)',
-            borderWidth: 1
-          },
-          {
-            label: 'Produk 2',
-            data: totalProduk2,
-            backgroundColor: 'rgba(75, 192, 192, 0.5)', // Adjust color as needed
-            borderColor: 'rgba(75, 192, 192, 1)',
-            borderWidth: 1
-          }
-        ]
-      },
-      options: {
-        scales: {
-          x: { stacked: true }, // Stack bars on the x-axis
-          y: { stacked: true }  // Stack bars on the y-axis
-        }
-      }
-    });
-  </script>
+<script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
 </html>
