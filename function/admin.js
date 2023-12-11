@@ -8,24 +8,27 @@ const dataAdmin = async (req, res) => {
           const cartData = {}; // Objek yang akan berisi data dari tiga query
 
           // Query untuk mengambil jumlah penjualan per item
-          const salesPerItem = await prisma.cart.groupBy({
-            by: ['product_id'],
-            _count: {
-              quantity: true,
-            },
-          });
-          cartData.salesPerItem = salesPerItem;
+          const products = await prisma.product.findMany();
+          cartData.products = products;
           
           // Query untuk mengambil penjualan terbaru
-          const latestSales = await prisma.cart.findMany({
+          const latestSalesWithUser = await prisma.cart.findMany({
             orderBy: {
               date: 'desc',
             },
-            take: 10,
+            take: 5,
+            include: {
+              user: {
+                select: {
+                  username: true,
+                },
+              },
+            },
           });
-          cartData.latestSales = latestSales;
-         
-          const tes = await prisma.cart.groupBy({
+          
+          cartData.latestSales = latestSalesWithUser;
+          
+          const produk1 = await prisma.cart.groupBy({
             by: ['date'],
             where: {
               product_id: 1,
@@ -35,7 +38,7 @@ const dataAdmin = async (req, res) => {
             },
           });
 
-          const tes2 = await prisma.cart.groupBy({
+          const produk2 = await prisma.cart.groupBy({
             by: ['date'],
             where: {
               product_id: 2,
@@ -45,16 +48,13 @@ const dataAdmin = async (req, res) => {
             },
           });
                   
-
-        console.log(tes);
-        console.log(tes2);
         
         //Mengirim data ke berkas admin.ejs
         res.render('admin.ejs', {
           dataAdmin: {
             cartData,
-            tes,
-            tes2
+            produk1,
+            produk2
             // tambahkan data lain jika diperlukan
           },
         });
